@@ -56,6 +56,7 @@
   --fontSize-7: 2.986rem;
   --color-primary: #F5487F;
   --color-background-1: #151b2e;
+  --color-background-4: #19213a;
   --color-background-2: #553772;
   --color-background-3:  #18244e;
   --color-text: #fff;
@@ -86,6 +87,9 @@ body {
   color: var(--color-text);
   background-color: var(--color-background-1);
   min-height: 100vh;
+  background-color: #e5e5f7;
+
+background: repeating-linear-gradient( 45deg, var(--color-background-4), var(--color-background-4) 2px, var(--color-background-1) 2px, var(--color-background-1) 25px );
 
 }
 
