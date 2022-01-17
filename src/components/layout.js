@@ -1,35 +1,21 @@
-import * as React from 'react'
-import { Link } from 'gatsby'
-import {
-  container,
-  heading,
-  navLinks,
-  navLinkItem,
-  navLinkText
-} from './layout.module.css'
+import * as React from "react"
+import { Link } from "gatsby"
+import Navbar from "./navbar";
+import "./layout.scss";
+const Layout = ({ location, title, children }) => {
+  const rootPath = `${__PATH_PREFIX__}/`
+  const isRootPath = location.pathname === rootPath
+ 
 
-const Layout = ({ pageTitle, children }) => {
   return (
-    <div className={container}>
-      <title>{pageTitle}</title>
-      <nav>
-        <ul className={navLinks}>
-          <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>
-              Home
-            </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
-              About
-            </Link>
-          </li>
-        </ul>
-      </nav>
-      <main>
-        <h1 className={heading}>{pageTitle}</h1>
-        {children}
-      </main>
+    <div className="global-wrapper" data-is-root-path={isRootPath}>
+      <header className="global-header"><Navbar title={title}/></header>
+      <main>{children}</main>
+      <footer className="footerMain">
+        © {new Date().getFullYear()}, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.com">Gatsby</a>
+      </footer>
     </div>
   )
 }

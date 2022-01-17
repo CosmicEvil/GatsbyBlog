@@ -1,0 +1,25 @@
+.global-wrapper{
+    // background-color: aquamarine;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    .global-header{
+        background-color: #292a73;
+        margin-bottom: 50px;
+    }
+    main{
+        max-width: 60%;
+        flex:1;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .footerMain{
+        background-color: #292A73;
+        position : relative;
+        bottom : 0;
+        width: 100%;
+        color: #67A1D8;
+        text-align: center;
+    }
+}
+
