@@ -3,8 +3,9 @@ import React, {useState, useEffect} from 'react'
 import { Link } from "gatsby"
 
 export default function Navbar({title}) {
+    
     const [toggleMenu, setToggleMenu] = useState(false)
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+    const [screenWidth, setScreenWidth] = useState()
 
     const toggleNav = () => {
         setToggleMenu(!toggleMenu)
@@ -12,16 +13,13 @@ export default function Navbar({title}) {
 
       useEffect(() => {
 
-        const changeWidth = () => {
-          setScreenWidth(window.innerWidth);
-        }
-    
+        setScreenWidth(window.innerWidth);
+        window.addEventListener("resize", () => {
+            setScreenWidth(window.innerWidth);
+        });
         return () => {
-            // if (typeof window !== `undefined`){
-
-            //     window.removeEventListener('resize', changeWidth)
-            // }
-        } 
+          window.removeEventListener("resize", () => {});
+        };
 
       }, [])
       return (
