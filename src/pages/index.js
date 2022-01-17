@@ -19,7 +19,6 @@ const MainPage = ({ data, location }) => {
     <div className="block wide">
     <StaticImage
                className="belt"
-               layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../images/white_belt.png"
                width={150}
@@ -36,7 +35,6 @@ const MainPage = ({ data, location }) => {
     <div className="block">
     <StaticImage
                className="belt"
-               layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../images/yellow_belt.png"
                width={150}
@@ -52,7 +50,6 @@ const MainPage = ({ data, location }) => {
     <div className="block">
     <StaticImage
                className="belt"
-               layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../images/orange_belt.png"
                width={150}
@@ -68,11 +65,10 @@ const MainPage = ({ data, location }) => {
     <div className="block wide">
     <StaticImage
                className="belt"
-               layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../images/green_belt.png"
                width={150}
-               height={120}
+               height={150}
                quality={95}
                alt="Logo"
     />
@@ -84,7 +80,6 @@ const MainPage = ({ data, location }) => {
     <div className="block">
     <StaticImage
                className="belt"
-               layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../images/blue_belt.png"
                width={150}
@@ -101,7 +96,6 @@ const MainPage = ({ data, location }) => {
     <div className="block">
     <StaticImage
                className="belt"
-               layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../images/red_belt.png"
                width={150}
@@ -118,7 +112,6 @@ const MainPage = ({ data, location }) => {
     <div className="block">
     <StaticImage
                className="belt"
-               layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../images/purple_belt.png"
                width={150}
@@ -134,7 +127,6 @@ const MainPage = ({ data, location }) => {
     <div className="block">
     <StaticImage
                className="belt"
-               layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../images/brown_belt.png"
                width={150}
@@ -150,7 +142,6 @@ const MainPage = ({ data, location }) => {
     <div className="block wide">
     <StaticImage
                className="beltBlack"
-               layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../images/black_belt_super.png"
                width={260}

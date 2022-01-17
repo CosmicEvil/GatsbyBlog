@@ -20,6 +20,11 @@
             justify-content: center;
             width: 100%;
             flex-direction: column;
+            .belt{
+              max-width: 261px;
+              height: 250px;
+          
+          }
             h4{ margin-top: 10px;
               text-align: center;}
             .right{
@@ -29,6 +34,7 @@
         }
         .belt{
             width: 40%;
+            height: auto;
         }
         .beltBlack{
           margin-bottom: 15px;
