@@ -15,7 +15,7 @@ const AboutPage = ({ data, location }) => {
     </p>
       <div className="belts">
     <StaticImage
-               className="logo"
+               className="beltAbout"
                layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/white_belt.png"
@@ -25,7 +25,7 @@ const AboutPage = ({ data, location }) => {
                alt="Logo"
     />
     <StaticImage
-               className="logo"
+               className="beltAbout"
                layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/yellow_belt.png"
@@ -35,7 +35,7 @@ const AboutPage = ({ data, location }) => {
                alt="Logo"
     />
      <StaticImage
-               className="logo"
+               className="beltAbout"
                layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/orange_belt.png"
@@ -45,7 +45,7 @@ const AboutPage = ({ data, location }) => {
                alt="Logo"
     />
      <StaticImage
-               className="logo"
+               className="beltAbout"
                layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/green_belt.png"
@@ -55,7 +55,7 @@ const AboutPage = ({ data, location }) => {
                alt="Logo"
     />
      <StaticImage
-               className="logo"
+               className="beltAbout"
                layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/blue_belt.png"
@@ -65,7 +65,7 @@ const AboutPage = ({ data, location }) => {
                alt="Logo"
     />
      <StaticImage
-               className="logo"
+               className="beltAbout"
                layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/red_belt.png"
@@ -74,8 +74,18 @@ const AboutPage = ({ data, location }) => {
                quality={95}
                alt="Logo"
     />
+        <StaticImage
+               className="beltAbout"
+               layout="fixed"
+               formats={["auto", "webp", "avif"]}
+               src="../../images/purple_belt.png"
+               width={50}
+               height={50}
+               quality={95}
+               alt="Logo"
+    />
       <StaticImage
-               className="logo"
+               className="beltAbout"
                layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/brown_belt.png"
@@ -85,7 +95,7 @@ const AboutPage = ({ data, location }) => {
                alt="Logo"
     />
       <StaticImage
-               className="logo"
+               className="beltAbout"
                layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/black_belt.png"

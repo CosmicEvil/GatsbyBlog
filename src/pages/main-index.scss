@@ -78,3 +78,23 @@ button {
     font-size: 18px;
     font-weight: bold;
   }
+
+  @media screen and (max-width: 500px){
+    .mainBlock{
+      .block{
+      flex-direction: column;
+      width: 100%;
+
+      .right{
+        width: 100%;
+        max-width: 100%;
+        margin-left: 00px;
+        h4{ margin-top: 10px;
+          text-align: center;
+        }
+    }
+    }
+    }
+    
+  
+  }
