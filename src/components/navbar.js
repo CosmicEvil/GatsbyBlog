@@ -17,10 +17,10 @@ export default function Navbar({title}) {
         }
     
         return () => {
-            if (typeof window !== `undefined`){
+            // if (typeof window !== `undefined`){
 
-                window.removeEventListener('resize', changeWidth)
-            }
+            //     window.removeEventListener('resize', changeWidth)
+            // }
         } 
 
       }, [])
