@@ -11,36 +11,34 @@ const AboutPage = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
     <Seo title="All posts" />
     <h1>Our values</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum mattis lorem, ut sagittis dui porta porttitor. Etiam eu tellus nec orci luctus euismod. Donec id augue non velit tincidunt commodo. Nullam sodales tortor nec ligula ultricies semper. Aenean vel elit dui. Nam finibus quam id lectus auctor euismod. Donec blandit facilisis sem, sit amet malesuada tellus molestie at. Praesent orci lorem, finibus at nisl eget, laoreet consectetur mauris. Sed pulvinar est arcu. Nulla aliquam neque orci, molestie dapibus tellus consectetur volutpat. Donec eget dui dignissim, hendrerit lectus sed, tincidunt sapien. Vestibulum sit amet eleifend erat, vel pharetra risus. Aenean venenatis placerat posuere.
-    </p>
-      <div className="belts">
+    <div className="belts">
     <StaticImage
                className="beltAbout"
-               layout="fixed"
+              //  layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/white_belt.png"
-               width={50}
-               height={50}
+               width={75}
+               height={75}
                quality={95}
                alt="Logo"
     />
     <StaticImage
                className="beltAbout"
-               layout="fixed"
+               
                formats={["auto", "webp", "avif"]}
                src="../../images/yellow_belt.png"
-               width={50}
-               height={50}
+               width={75}
+               height={75}
                quality={95}
                alt="Logo"
     />
      <StaticImage
                className="beltAbout"
-               layout="fixed"
+              //  layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/orange_belt.png"
-               width={50}
-               height={50}
+               width={75}
+               height={75}
                quality={95}
                alt="Logo"
     />
@@ -49,18 +47,26 @@ const AboutPage = ({ data, location }) => {
                layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/green_belt.png"
-               width={50}
-               height={50}
+               width={75}
+               height={75}
                quality={95}
                alt="Logo"
     />
+
+     
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum mattis lorem, ut sagittis dui porta porttitor. Etiam eu tellus nec orci luctus euismod. Donec id augue non velit tincidunt commodo. Nullam sodales tortor nec ligula ultricies semper. Aenean vel elit dui. Nam finibus quam id lectus auctor euismod. Donec blandit facilisis sem, sit amet malesuada tellus molestie at. Praesent orci lorem, finibus at nisl eget, laoreet consectetur mauris. Sed pulvinar est arcu. Nulla aliquam neque orci, molestie dapibus tellus consectetur volutpat. Donec eget dui dignissim, hendrerit lectus sed, tincidunt sapien. Vestibulum sit amet eleifend erat, vel pharetra risus. Aenean venenatis placerat posuere.
+    </p>
+    <div className="belts">
+    
+     
      <StaticImage
                className="beltAbout"
-               layout="fixed"
+              //  layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/blue_belt.png"
-               width={50}
-               height={50}
+               width={75}
+               height={75}
                quality={95}
                alt="Logo"
     />
@@ -69,8 +75,8 @@ const AboutPage = ({ data, location }) => {
                layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/red_belt.png"
-               width={50}
-               height={50}
+               width={75}
+               height={75}
                quality={95}
                alt="Logo"
     />
@@ -79,34 +85,66 @@ const AboutPage = ({ data, location }) => {
                layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/purple_belt.png"
-               width={50}
-               height={50}
+               width={75}
+               height={75}
                quality={95}
                alt="Logo"
     />
       <StaticImage
                className="beltAbout"
-               layout="fixed"
+              //  layout="fixed"
                formats={["auto", "webp", "avif"]}
                src="../../images/brown_belt.png"
-               width={50}
-               height={50}
+               width={75}
+               height={75}
+               quality={95}
+               alt="Logo"
+    />
+ 
+    </div>
+    <p>Duis vehicula hendrerit ligula. Duis porta lorem sit amet sagittis semper. Aenean vestibulum tellus ex, eu tempus ex molestie quis. Aliquam ultricies mi sed tellus tempor, at molestie metus consectetur. Nunc varius mi vitae ligula hendrerit vehicula. Cras elementum consequat fermentum. Aliquam faucibus in risus condimentum commodo. Proin volutpat vulputate felis ac auctor. Praesent scelerisque vehicula quam.</p>
+    <div className="belts">
+    <StaticImage
+               className="beltAbout"
+              //  layout="fixed"
+               formats={["auto", "webp", "avif"]}
+               src="../../images/black_belt.png"
+               width={75}
+               height={75}
+               quality={95}
+               alt="Logo"
+    />
+     <StaticImage
+               className="beltAbout"
+              //  layout="fixed"
+               formats={["auto", "webp", "avif"]}
+               src="../../images/orange_belt.png"
+               width={75}
+               height={75}
+               quality={95}
+               alt="Logo"
+    />
+     <StaticImage
+               className="beltAbout"
+              //  layout="fixed"
+               formats={["auto", "webp", "avif"]}
+               src="../../images/green_belt.png"
+               width={75}
+               height={75}
                quality={95}
                alt="Logo"
     />
       <StaticImage
                className="beltAbout"
-               layout="fixed"
+              //  layout="fixed"
                formats={["auto", "webp", "avif"]}
-               src="../../images/black_belt.png"
-               width={50}
-               height={50}
+               src="../../images/logo.png"
+               width={75}
+               height={75}
                quality={95}
                alt="Logo"
     />
     </div>
-    <p>Duis vehicula hendrerit ligula. Duis porta lorem sit amet sagittis semper. Aenean vestibulum tellus ex, eu tempus ex molestie quis. Aliquam ultricies mi sed tellus tempor, at molestie metus consectetur. Nunc varius mi vitae ligula hendrerit vehicula. Cras elementum consequat fermentum. Aliquam faucibus in risus condimentum commodo. Proin volutpat vulputate felis ac auctor. Praesent scelerisque vehicula quam.</p>
-  
   </Layout>
      
 
