@@ -17,7 +17,10 @@ export default function Navbar({title}) {
         }
     
         return () => {
-            window.removeEventListener('resize', changeWidth)
+            if (typeof window !== `undefined`){
+
+                window.removeEventListener('resize', changeWidth)
+            }
         } 
 
       }, [])
