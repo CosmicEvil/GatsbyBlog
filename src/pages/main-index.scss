@@ -1,0 +1,68 @@
+.mainBlock{
+    display: flex;
+    // flex-direction: column;
+    flex-wrap: wrap;
+    &.footer{
+      margin-top: 40px;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+    .block{
+        display: flex;
+        align-items: center;
+        width: 50%;
+        // flex-wrap: wrap; 
+        &.wide{
+            justify-content: center;
+            width: 100%;
+        }
+        .belt{
+            width: 40%;
+        }
+        .right{
+            max-width: 50%;
+            margin-left: 20px;
+        }
+    }
+}
+
+button {
+    height: 45px;
+    max-width: 300px;
+    border: 0;
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    font-family: var(--font-heading);
+    margin-bottom: 30px;
+  }
+  
+  .connect-wallet-button {
+    background: -webkit-linear-gradient(left, #60c657, #35aee2);
+    background-size: 200% 200%;
+    animation: gradient-animation 4s ease infinite;
+  }
+  
+  .main-button {
+    background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+    background-size: 200% 200%;
+    animation: gradient-animation 4s ease infinite;
+    margin-right: 15px;
+  }
+  
+  .opensea-button {
+    background-color: rgb(32, 129, 226);
+  }
+  
+  .mint-count {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
