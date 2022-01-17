@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
-const MainPage = ({ data, location }) => {
+const LearnMainPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
   return(
@@ -19,7 +19,7 @@ const MainPage = ({ data, location }) => {
   )
 }
 
-export default MainPage
+export default LearnMainPage
 export const pageQuery = graphql`
   query {
     site {

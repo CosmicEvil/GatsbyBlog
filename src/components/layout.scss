@@ -4,7 +4,7 @@
     min-height: 100vh;
     flex-direction: column;
     .global-header{
-        background-color: #292a73;
+        background: var(--color-background-2);
         margin-bottom: 50px;
     }
     main{
@@ -14,12 +14,15 @@
         margin-top: 50px;
     }
     .footerMain{
-        background-color: #292A73;
+        background: var(--color-background-2);
         position : relative;
         bottom : 0;
         width: 100%;
-        color: #67A1D8;
+        color: var(--color-text);
         text-align: center;
+        a{
+            
+        }
     }
 }
 
