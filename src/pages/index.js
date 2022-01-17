@@ -144,8 +144,8 @@ const MainPage = ({ data, location }) => {
                className="beltBlack"
                formats={["auto", "webp", "avif"]}
                src="../images/black_belt_super.png"
-               width={260}
-               height={200}
+               width={520}
+               height={400}
                quality={95}
                alt="Logo"
     />

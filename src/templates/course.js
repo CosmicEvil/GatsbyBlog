@@ -1,14 +1,41 @@
-import * as React from "react"
+import React, { useState, useEffect } from 'react';
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+import Quiz from 'react-quiz-component';
+import { quiz1, quiz2 } from './quiz/quizpart_1';
+import './course.scss'
 
-const BlogPostTemplate = ({ data, location }) => {
+const CourseTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+  
+  const[quiz, setQuiz] = useState(quiz1);
+  const[quizLoaded, setQuizloaded] = useState(false);
+
+  useEffect(() => {
+
+    console.log(location.pathname)
+    switch (location.pathname) {
+      case "/course-1/":
+        setQuiz(quiz1);
+        break;
+      case "/course-2/":
+        setQuiz(quiz2);
+      break;
+      
+      default:
+        break;
+        // setQuizloaded(true)
+    }
+    setQuizloaded(true)
+    // fetchData();
+}, []);
+
+
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -30,10 +57,12 @@ const BlogPostTemplate = ({ data, location }) => {
           itemProp="articleBody"
         />
         <hr />
-        {/* <footer>
-        <Quiz quiz={quiz}/>
-        </footer> */}
-        <hr />
+        <footer>
+          {
+            quizLoaded ? <Quiz quiz={quiz}/> : null
+          }
+        
+        </footer>
       </article>
       <nav className="blog-post-nav">
         <ul
@@ -65,10 +94,12 @@ const BlogPostTemplate = ({ data, location }) => {
   )
 }
 
-export default BlogPostTemplate
+export default CourseTemplate
+// export const quizQuery = 
+
 
 export const pageQuery = graphql`
-  query BlogPostBySlug(
+  query CourseBySlug(
     $id: String!
     $previousPostId: String
     $nextPostId: String
