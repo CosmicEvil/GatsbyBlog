@@ -47,7 +47,7 @@ export default function Navbar({title}) {
             </ul>
           )}
     
-          <button onClick={toggleNav} className="btn">BTN</button>
+          <button onClick={toggleNav} className="btn">Menu</button>
         </nav>
       )
     }

@@ -65,10 +65,13 @@
     display: none;
     position: absolute;
     right: 10px;
-    top: 7px;
+    top: 40px;
     padding: 5px;
-    color: #000;
+    color: #fff;
     font-size: 18px;
+    background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+    background-size: 200% 200%;
+    animation: gradient-animation 4s ease infinite;
 }
 
 

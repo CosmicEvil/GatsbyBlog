@@ -160,7 +160,7 @@ const MainPage = ({ data, location }) => {
     />
     <div className="right">
       <h4>Black belt</h4>
-      <p>You <b>FUCKING MADE IT!!</b><br />The endgame!</p>
+      <p>YOU <strong>FUCKING MADE IT!!</strong><br />The endgame!</p>
     </div>
     </div>
     </div>
