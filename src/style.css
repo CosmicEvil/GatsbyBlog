@@ -1,5 +1,5 @@
 /* CSS Custom Properties Definitions */
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
 :root {
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
@@ -32,8 +32,12 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
-  --font-body: var(--fontFamily-serif);
-  --font-heading: var(--fontFamily-sans);
+  --fontFamily-block: 'VT323', monospace;
+  --fontFamily-block2: 'Press Start 2P', cursive;
+
+  --font-body: var(--fontFamily-block2);
+  --font-heading: var(--fontFamily-block2);
+  /* --font-heading: var(--fontFamily-sans); */
   --fontWeight-normal: 400;
   --fontWeight-medium: 500;
   --fontWeight-semibold: 600;

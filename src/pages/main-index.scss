@@ -41,15 +41,17 @@
 }
 
 button {
-    height: 45px;
+    
     max-width: 300px;
     border: 0;
     width: auto;
+    padding:20px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    line-height: 23px;
     font-weight: bold;
     color: white;
     font-family: var(--font-heading);
