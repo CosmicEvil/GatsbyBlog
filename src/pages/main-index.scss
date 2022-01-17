@@ -3,7 +3,8 @@
     // flex-direction: column;
     flex-wrap: wrap;
     &.footer{
-      margin-top: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
       justify-content: center;
       flex-direction: column;
       text-align: center;
@@ -13,13 +14,24 @@
         display: flex;
         align-items: center;
         width: 50%;
+        
         // flex-wrap: wrap; 
         &.wide{
             justify-content: center;
             width: 100%;
+            flex-direction: column;
+            h4{ margin-top: 10px;
+              text-align: center;}
+            .right{
+              max-width: 100%;
+              margin-left: 0px;
+          }
         }
         .belt{
             width: 40%;
+        }
+        .beltBlack{
+          margin-bottom: 15px;
         }
         .right{
             max-width: 50%;
