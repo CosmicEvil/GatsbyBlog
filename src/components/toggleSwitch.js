@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import './ToggleSwitch.scss';
+import './toggleSwitch.scss';
 
 /*
 Toggle Switch Component
