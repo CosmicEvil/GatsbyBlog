@@ -33,7 +33,6 @@ const BlogPostTemplate = ({ data, location }) => {
         {/* <footer>
         <Quiz quiz={quiz}/>
         </footer> */}
-        <hr />
       </article>
       <nav className="blog-post-nav">
         <ul

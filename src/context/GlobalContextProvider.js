@@ -21,8 +21,8 @@ function switchTheme(theme){
             document.documentElement.style.setProperty('--color-background-2', '#fff');
             document.documentElement.style.setProperty('--color-background-3', '#F5487F');
             document.documentElement.style.setProperty('--color-text', '#151b2e');
-            document.documentElement.style.setProperty('--color-text-light', '#18244e');
-            document.documentElement.style.setProperty('--color-heading', '#F5487F');
+            document.documentElement.style.setProperty('--color-text-light', '#7794FF');
+            document.documentElement.style.setProperty('--color-heading', '#7794FF');
             document.documentElement.style.setProperty('--color-heading-black','#7794FF');
             document.documentElement.style.setProperty('--color-accent', '#ff91b4');
         } else {
