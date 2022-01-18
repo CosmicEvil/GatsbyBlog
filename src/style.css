@@ -1,5 +1,6 @@
 /* CSS Custom Properties Definitions */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+ /* @import ".././node_modules/pixel-borders/src/styles/pixel-borders.scss";  */
 :root {
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
@@ -121,7 +122,9 @@ h6 {
   line-height: var(--lineHeight-normal);
   letter-spacing: -0.025em;
 }
-
+h1{
+  margin-top: unset;
+}
 h2,
 h3,
 h4,

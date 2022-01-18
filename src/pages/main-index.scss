@@ -1,3 +1,11 @@
+//  @import "node_modules/pixel-borders/src/styles/pixel-borders.scss";
+// // Available options
+// @include pixel-borders(
+//   $corner-size: 1,
+//   $border-size: 4px,
+//   $border-color: #000,
+//   $border-inset-color: false
+// );
 .mainBlock{
     display: flex;
     // flex-direction: column;
@@ -47,7 +55,7 @@
 }
 
 button {
-    
+
     max-width: 300px;
     border: 0;
     width: auto;
@@ -101,7 +109,14 @@ button {
       .block{
       flex-direction: column;
       width: 100%;
-
+      &.wide{
+       
+        .belt{
+          width: 40%;
+          height: auto;
+        }
+      
+      }
       .right{
         width: 100%;
         max-width: 100%;

@@ -1,15 +1,58 @@
 
 .react-quiz-container {
-    
+    width: 100%;
+    // max-width: 700px;
     margin: 0;
     .questionWrapper {
+        // font-size: 10px;
+        max-width: 700px;
+
+        .result-answer-wrapper{
+            background-color: var(--color-background-1);
+            border: 1px solid var(--color-primary);
+            .explanation{
+                border: 1px solid var(--color-primary);
+
+            }
+            h3{
+                font-size: 17px;
+                background-color: unset;
+                color: var(--color-text);
+                margin: 20px;
+                padding: unset;
+                p{
+                    margin: unset;
+                }
+            }
+            .result-answer{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                img{
+                    width: 100%;
+                    max-width: 300px;
+                }
+                .answerBtn{
+                     min-width: 48%;
+                }
+            }
+        }
         .btn {
+            // font-size: 10px;
             max-width: unset;
-            background: -webkit-linear-gradient(left, #60c657, #35aee2);
+            background: -webkit-linear-gradient(left, #5900ff, #44c7ff);
             background-size: 200% 200%;
             animation: gradient-animation 4s ease infinite;
             color: #fff;
             border:0px;
+            width: unset;
+            &:hover{
+                transform: scale(1);
+                background: -webkit-linear-gradient(left,  #a200d6, #ff6fdf);
+
+            }
         }
         .nextQuestionBtn{
             background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
@@ -24,6 +67,32 @@
                 animation: gradient-animation 4s ease infinite;
                 color: #fff;
                 border:0px;
+                &:hover{
+                    transform: scale(1.05)
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px){
+    .react-quiz-container {
+        width: unset;
+        margin: 0;
+        .questionWrapper {
+            font-size: 10px;
+            .quiz-result-filter{
+                width: 180px
+            }
+             .result-answer-wrapper{
+                font-size:  10px;
+                h3{
+                    font-size:  14px;
+
+                }
+             }
+            .btn {
+                font-size: 10px;
+                line-height: 14px;
             }
         }
     }

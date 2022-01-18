@@ -35,8 +35,6 @@ const CourseTemplate = ({ data, location }) => {
     // fetchData();
 }, []);
 
-
-
   return (
     <Layout location={location} title={siteTitle}>
       <Seo

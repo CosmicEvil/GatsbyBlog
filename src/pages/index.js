@@ -135,7 +135,7 @@ const MainPage = ({ data, location }) => {
                alt="Logo"
     />
     <div className="right">
-      <h4>Purple belt</h4>
+      <h4>Brown belt</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum mattis lorem, ut sagittis dui porta porttitor. </p>
     </div>
     </div> 
