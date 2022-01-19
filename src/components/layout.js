@@ -1,7 +1,7 @@
 import React, {useContext, useState} from "react";
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import Navbar from "./navbar";
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
  
 import {
   GlobalDispatchContext,

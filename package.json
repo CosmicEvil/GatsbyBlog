@@ -37,6 +37,7 @@
     "typeface-montserrat": "0.0.75"
   },
   "devDependencies": {
+    "hardhat": "^2.8.2",
     "pixel-borders": "^1.1.4",
     "prettier": "^2.5.1"
   },

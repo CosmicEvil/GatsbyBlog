@@ -94,8 +94,11 @@ body {
   min-height: 100vh;
   background-color: #e5e5f7;
 
-background: repeating-linear-gradient( 45deg, var(--color-background-4), var(--color-background-4) 2px, var(--color-background-1) 2px, var(--color-background-1) 25px );
-
+/* background: repeating-linear-gradient( 45deg, var(--color-background-4), var(--color-background-4) 2px, var(--color-background-1) 2px, var(--color-background-1) 25px ); */
+/* background-color: #e5e5f7;
+opacity: 0.8; */
+background-image:  linear-gradient(var(--color-background-4) 1px, transparent 1px), linear-gradient(to right, var(--color-background-4) 1px, var(--color-background-1) 1px);
+background-size: 30px 30px;
 }
 
 footer {
